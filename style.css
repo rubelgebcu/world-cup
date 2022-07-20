@@ -1,0 +1,177 @@
+ /* google fonts  */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+ body{
+    font-family: 'Poppins', sans-serif;
+ 
+
+ }
+
+    
+
+section{
+     margin-top: 50px;
+}
+
+/* header style  */
+.header{
+    width: 100%;
+    background-color: black;
+    border-radius: 20px;
+    display: flex;
+}
+.header div{
+    width: 50%;
+    padding: 50px;
+}
+.header-text h1{
+    color: white;
+    font-size: 40px;
+}
+
+.header-text h1:hover{
+    color: red;
+    font-size: 70px;
+}
+.header-text p{
+    color: white;
+    margin-bottom: 50px;
+}
+.anchor-button{
+
+    text-decoration: none;
+    background: red;
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;}
+    
+
+
+
+
+.header-image img {
+    width: 300px;
+    height: 450px;
+    
+}
+
+.header-image img:hover{
+    width: 500px;
+    height: 700px;
+}
+
+/* match info style  */
+
+.details-link button{
+    width: 150px;
+    margin-left: 50px;
+    padding: 10px;
+    border-radius: 10px;
+}
+#blog{
+background-color: red;
+color: white;
+}
+.team-details img{
+    width: 290px;
+}
+.team-details h6{
+    width: 80px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.match-info{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin-left: 20px;
+}
+.match-info >div{
+    margin: 20px;
+}
+.match-details{
+    background-color: black;
+    width: 25%;
+    height: 300px;
+}
+.match-details div{
+    padding-top: 20px;
+}
+
+ul li {
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.transfer{
+    width: 65%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+   
+}
+
+/* footer style  */
+
+.goal h1{
+    color: white;
+    padding-top: 70px;
+    text-align: center;
+}
+.footer{
+    background-color: black;
+    
+}
+.footer div{
+    
+}
+.footer ul{
+    display: flex;
+    justify-content: center;
+}
+.footer ul li{
+    color: white;
+    margin: 20px;
+    list-style: none;
+    
+
+}
+.footer ul li a{
+    text-decoration: none;
+
+}
+
+/* --------------------------------
+             media Queries 
+.................................. */
+
+/* Mobile Devices  */
+@media only screen and (max-width:688px){
+    .team-details img{
+        width: 350px;}
+
+    section{
+        width: 100%;
+    }
+    .header{
+    
+        flex-direction: column;
+    }
+    .match-details{
+        background-color: white;
+    }
+
+    .match-info{
+        flex-direction: column;
+        grid-template-columns: repeat(1fr);
+       
+    }
+    .footer ul{
+    flex-direction: column;
+}
+}
